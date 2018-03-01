@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">Spell Blaster</string>
+    <string name="button_start_game">Start Game</string>
+    <string name="button_settings">Settings</string>
+    <string name="button_high_score">High Scores</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings_twitter_desc">Automatically sends a tweet with your score at the end of the game.</string>
+    <string name="game_menu_bar1">Settings</string>
+    <string name="game_menu_bar2">High Scores</string>
+    <string name="game_menu_bar3">Share</string>
+    <string name="button_start">Begin</string>
+    <string name="game_instructions"> The aim of the game is to look at a description of a word,
+        and some shuffled letters, to determine the correct spelling of it. There are three
+        difficulties - easy, moderate and hard. The harder the difficulty, the more points you
+        score. If you have trouble with a word, you can press the solution button to look at the
+        answer, at the expense of points. \n \n
+
+        Feel free to hold your finger anywhere on the screen for a more
+        immersive and distraction-free experience. \n \n
+
+        To begin playing, shake the screen.
+    </string>
+    <string name="word_input">Enter the word</string>
+    <string-array name="spinner_difficulty">
+        <item>Easy</item>
+        <item>Moderate</item>
+        <item>Hard</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+    <string name="reveal_word">Reveal word</string>
+    <string name="button_game_home">To Home Screen</string>
+    <string name="game_button_high_scores">To High Scores</string>
+    <string name="audio_source_1">ExplosionBombBlastAmbient2.wav by zimbot
+        (https://www.freesound.org/people/zimbot/sounds/117137/),
+        Licensed under Creative Commons: By Attribution 3.0 License
+        http://creativecommons.org/licenses/by/3.0/
+    </string>
+    <string name="audio_source_2">firecracker.04.flac by dobroide,
+        (https://www.freesound.org/people/dobroide/sounds/9679/),
+        Licensed under Creative Commons: By Attribution 3.0 License
+        http://creativecommons.org/licenses/by/3.0/
+    </string>
+    <string name="audio_source_3">Killers by Kevin MacLeod (incompetech.com)
+        Licensed under Creative Commons: By Attribution 3.0 License
+        http://creativecommons.org/licenses/by/3.0/
+    </string>
+    <string name="stop">Stop</string>
+
+
+    <!---Preference Settings-->
+
+    <string name="settings_twitter_label">Twitter Integration</string>
+    <string name="spinner_difficulty_label">Difficulty</string>
+    <string name="spinner_difficulty_summary">Select how difficult you want the words to be.</string>
+    <string name="spinner_number_label">Number of Questions</string>
+    <string name="spinner_number_summary">Select how many questions you would like.</string>
+    <string name="edittext_initials_label">Enter Initials</string>
+    <string name="edittext_initials_summary">Enter the first letter of your first, middle and last name.</string>
+    <string name="edittext_default_value">AAA</string>
+    <string-array name="difficulty">
+        <item>Easy</item>
+        <item>Moderate</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="difficulty_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="number_of_questions">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+
+    <!---Words for the easy difficulty, grouped with definitions-->
+
+    <string-array name="easy_words">
+        <item>annual,Every year.</item>
+        <item>beginning,Start.</item>
+        <item>captain,First in command.</item>
+        <item>course,Route.</item>
+        <item>decimal,A fraction that is to the power of 10.</item>
+        <item>cause,The reason for something.</item>
+        <item>circle,Round shape.</item>
+        <item>election,Organised choice by vote of a person to something.</item>
+        <item>ruin,The destruction of something - physically or mentally.</item>
+        <item>settled,To solve a problem.</item>
+        <item>single,One.</item>
+        <item>rarely,Does not happen often.</item>
+        <item>orphan,To be without parents.</item>
+        <item>position,Where something is.</item>
+        <item>equal,To be the same.</item>
+        <item>graceful,Done with style.</item>
+        <item>graph,A visual representation of information.</item>
+        <item>future,Beyond now.</item>
+        <item>minor,Small.</item>
+        <item>message,A spoken or written piece of information with meaning and context.</item>
+        <item>judgement,To make considered decisions.</item>
+        <item>catch,To seize or trap.</item>
+        <item>paragraph,A bunch of sentences.</item>
+        <item>located,Where something is.</item>
+        <item>rarity,Very uncommon - like a white unicorn with diamonds.</item>
+        <item>state,Australia has many of these.</item>
+        <item>syllable,The sounds that words make.</item>
+        <item>soar,To rise.</item>
+        <item>stain,To discolour and be difficult to remove.</item>
+        <item>rhythm,Strong and repeated pattern.</item>
+    </string-array>
+
+    <!---Words for the moderate difficulty, grouped with definitions-->
+
+    <string-array name="moderate_words">
+        <item>acquire,To obtain something.</item>
+        <item>persist,Repeatedly continue a task.</item>
+        <item>perceived,To realise.</item>
+        <item>fathom,To understand.</item>
+        <item>anonymous,Faceless.</item>
+        <item>irate,To be angry.</item>
+        <item>quench,To satisfy by drinking.</item>
+        <item>counterfeit,Fake object made to look like something real.</item>
+        <item>unscathed,Be without injury or harm.</item>
+        <item>dumbfound,To be in full amazement.</item>
+        <item>congested,To be stuck.</item>
+        <item>legitimate,Something that is proper.</item>
+        <item>agitate,To make something more troubled.</item>
+        <item>blatant,Obvious.</item>
+        <item>homicide,To kill someone.</item>
+        <item>robust,Efficient.</item>
+        <item>gruesome,Something that is difficult to watch.</item>
+        <item>hurtle,Move at high speed.</item>
+        <item>allege,To make an unverified statement.</item>
+        <item>rupture,End of the world.</item>
+        <item>sequel,Something set after something else.</item>
+        <item>lavish,To be luxurious.</item>
+        <item>utmost,To the greatest amount.</item>
+        <item>noteworthy,Something of great notice or detail.</item>
+        <item>deceased,To be dead.</item>
+        <item>obnoxious,To be annoying.</item>
+        <item>aspire,To have hopes towards something.</item>
+        <item>accelerate,To speed up.</item>
+        <item>akin,Of similar character.</item>
+        <item>figment,Something that only exists in imagination.</item>
+    </string-array>
+
+    <!---Words for the hard difficulty, grouped with definitions-->
+
+    <string-array name="hard_words">
+        <item>ellipse,A closed flat curved 2d shape.</item>
+        <item>fallacy,Flawed reasoning.</item>
+        <item>flourish,To grow quickly.</item>
+        <item>labyrinth,Maze.</item>
+        <item>metaphor,A non-literal similarity.</item>
+        <item>outrageous,Shockingly bad or excessive.</item>
+        <item>sacrifice,Killing to appease a deity.</item>
+        <item>solstice,When the sun is furthermost away from the equation</item>
+        <item>suffrage,Legal right to vote.</item>
+        <item>tranquility,An untroubled, peaceful state.</item>
+        <item>zoology,Study of animals</item>
+        <item>pulverise,Crush or break into a powder.</item>
+        <item>protagonist,Main character in a fictional work.</item>
+        <item>nocturnal,Anything active at night.</item>
+        <item>maneuver,Training exercise.</item>
+        <item>inference,Conclusion based on evidence.</item>
+        <item>guerrilla,</item>
+        <item>despondent,Without hope.</item>
+        <item>hypocrisy,Claiming to be more noble then you really are.</item>
+        <item>introspection,Reflection.</item>
+        <item>quarantine,Separation of disease from the rest of society.</item>
+        <item>renegade,Rebellious outlaw.</item>
+        <item>silhouette,Outline of an object.</item>
+        <item>tariff,Government tax.</item>
+        <item>tundra,Frozen biome.</item>
+        <item>unanimous,Total agreement.</item>
+        <item>vertebrate,Animal bony skeleton.</item>
+        <item>mosaic,Coloured stone/glass.</item>
+        <item>enthusiastic,Actively excited and interested in something.</item>
+        <item>camouflage,Disguise.</item>
+    </string-array>
+</resources>

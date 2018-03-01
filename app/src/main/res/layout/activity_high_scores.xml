@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ghostchippies.spellblasterforandroidv44.HighScores">
+
+    <Spinner
+        android:id="@+id/difficulty_database_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_difficulty" />
+
+    <ListView
+        android:id="@+id/high_score_list"
+        android:layout_width="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

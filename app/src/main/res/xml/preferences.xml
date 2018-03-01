@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="twitterIntegration"
+        android:summary="@string/settings_twitter_desc"
+        android:title="@string/settings_twitter_label" />
+
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/difficulty"
+        android:entryValues="@array/difficulty_value"
+        android:key="difficultyValue"
+        android:summary="@string/spinner_difficulty_summary"
+        android:title="@string/spinner_difficulty_label" />
+
+    <ListPreference
+        android:defaultValue="10"
+        android:entries="@array/number_of_questions"
+        android:entryValues="@array/number_of_questions"
+        android:key="numberOfQuestions"
+        android:summary="@string/spinner_number_summary"
+        android:title="@string/spinner_number_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/edittext_default_value"
+        android:key="nameInitials"
+        android:title="@string/edittext_initials_label"
+        android:summary="@string/edittext_initials_summary"
+        android:maxLength="3" />
+
+</PreferenceScreen>
